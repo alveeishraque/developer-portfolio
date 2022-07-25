@@ -9,8 +9,12 @@ h1{
 .color{
     color: rgb(255, 183, 0);
 }
+section{
+    margin-bottom: 120px;
+}
 .fleaxiblecontainer{
     display: flex
+
     
     
       
@@ -45,4 +49,26 @@ h1{
     background-image: url(developer-portfolio-master/images/top-banner.png) ;
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiment{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+.area{
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#first{
+    border-left: 7px solid tomato;
+}
+#second{
+    border-right: 7px solid blue;
+}
+.footer{
+    text-align: center;
 }
